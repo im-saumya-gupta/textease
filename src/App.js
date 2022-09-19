@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import About from './components/About';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
 import React,{useState} from 'react';
@@ -40,7 +39,6 @@ function App() {
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
     <Alert alert={alert}/>
     <TextForm heading="Enter Your Text Below" mode={mode} showAlert={showAlert}/>
-    {/* <About mode={mode}/> */}
     </>
   );
 }
